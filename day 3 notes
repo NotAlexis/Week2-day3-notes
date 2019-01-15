@@ -1,0 +1,76 @@
+//Filename: day3.cpp
+// Desc: Program to demo math and user input
+// Author: Alexis
+//Date: 1/15/19
+
+#include <iostream>
+#include <string>
+#include <iomanip>
+
+using namespace std;
+
+int main()
+
+{
+
+/*
+//var declarations
+int numInStock;
+float price4One;
+bool inStock;
+char source;
+string productName;
+float totalValue;
+
+
+//initialize
+cout << "What is the name of the product? ";
+getline(cin, productName);
+cout << "How many " << productName << "s are in stock? ";
+cin >> numInStock;
+cout << "What is the price of one " << productName << "? ";
+cin >> price4One;
+cout << "What is the source? (G for generic, B for brand name) ";
+cin >> source;
+cout << "Are there " << productName << "s in stock? (Y for yes, N for no) ";
+
+
+totalValue = numInStock * price4One;
+
+cout << endl << endl;
+cout << "\t\t Product Inventory\n\n";
+cout << "Product:    " << productName << endl;
+cout << "# in stock: " << numInStock << endl;
+cout << "Price:      " << price4One << endl;
+cout << "Source:     " << source << endl;
+cout << "In stock?   " << inStock << endl << endl;
+
+cout << fixed << showpoint << setprecision(2);
+cout << "Total value of inventory: $ " << totalValue << endl;
+
+*/
+
+//example of int division
+
+int numerator, denominator;
+float answer;
+numerator = 7;
+denominator = 9;
+answer = static_cast<float> (numerator / denominator);
+cout << answer << endl << endl;
+answer = numerator % denominator;
+cout << answer << endl << endl;
+
+
+
+
+
+//output
+
+
+
+return 0;
+
+
+
+}
